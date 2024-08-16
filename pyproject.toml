@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "definitely-typed"
+version = "0.1"
+description = "Definitely typed. Type any object to any type as you wish."
+keywords = ["typing", "definitely", "type-hints"]
+authors = [
+  { name = "AWeirdDev", email = "aweirdscratcher@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9"
+dependencies = [
+  "typing-extensions"
+]
+
+[project.urls]
+"Source" = "https://github.com/AWeirdDev/definitely"
+"Bug Tracker" = "https://github.com/AWeirdDev/definitely/issues"
+
+[tool.setuptools]
+packages = [
+    "definitely"
+]
