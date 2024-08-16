@@ -11,14 +11,6 @@ Typing tricks that make your type checker *a little* more quiet.
 pip install definitely-typed
 ```
 
-## Warning
-The package name is `definitely`, while the PyPI upload is called `definitely-typed`. **Make sure to provide a Pip install guide in code**, this can help other people understand what package is missing faster. For example, when importing, you **should** provide a clear message like so:
-```python
-import definitely  # pip install definitely-typed
-#                ^^
-#                two spaces here!
-```
-
 I should all be responsible about this, admittedly. Sorry guys.
 
 ## Methods

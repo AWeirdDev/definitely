@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "definitely-typed"
-version = "0.1"
+version = "0.2"
 description = "Definitely typed. Type any object to any type as you wish."
 keywords = ["typing", "definitely", "type-hints"]
 authors = [
@@ -28,5 +28,5 @@ dependencies = [
 
 [tool.setuptools]
 packages = [
-    "definitely"
+    "definitely_typed"
 ]
